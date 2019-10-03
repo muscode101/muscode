@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f2fda0e-54fd-4f55-832d-762a55cf8999" name="Default Changelist" comment="testing git">
+    <list default="true" id="5f2fda0e-54fd-4f55-832d-762a55cf8999" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -42,12 +42,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="15" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
     </session>
@@ -71,8 +71,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="muscode101 &lt;juliousdeveloper@gmail.com&gt;" />
         <option value="muscode &lt;juliousdeveloper@gmail.com&gt;" />
+        <option value="muscode101 &lt;juliousdeveloper@gmail.com&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -178,7 +178,7 @@
       <workItem from="1569574287654" duration="1909000" />
       <workItem from="1569765466663" duration="3508000" />
       <workItem from="1569946864872" duration="589000" />
-      <workItem from="1570084723694" duration="600000" />
+      <workItem from="1570084723694" duration="3895000" />
     </task>
     <task id="LOCAL-00001" summary="testing git">
       <created>1569766430259</created>
@@ -201,15 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569772961959</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testing git">
+      <created>1570085607866</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570085607866</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7000000" />
+    <option name="totallyTimeSpent" value="10295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="27" width="1315" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -224,8 +230,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298791" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3298791" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50077397" side_tool="true" weight="0.3298791" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.499226" visible="true" weight="0.3298791" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -265,7 +271,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing git" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing git" />
+    <MESSAGE value="testing git push" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing git push" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js">
