@@ -20,8 +20,9 @@
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.48" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,7 +37,7 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="3" />
+          <entry key="ESLintLanguageService" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -56,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="22">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -175,7 +176,9 @@
       <updated>1569573859650</updated>
       <workItem from="1569573862010" duration="394000" />
       <workItem from="1569574287654" duration="1909000" />
-      <workItem from="1569765466663" duration="2542000" />
+      <workItem from="1569765466663" duration="3508000" />
+      <workItem from="1569946864872" duration="589000" />
+      <workItem from="1570084723694" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="testing git">
       <created>1569766430259</created>
@@ -191,11 +194,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569767003838</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="testing git">
+      <created>1569772961959</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569772961959</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4845000" />
+    <option name="totallyTimeSpent" value="7000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="27" width="1315" height="741" extended-state="6" />
@@ -260,8 +270,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="22">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
