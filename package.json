@@ -7,10 +7,11 @@
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.2"
   },
+  "//note": "NODE_OPTIONS=--openssl-legacy-provider is required because react-scripts 3.x uses an old webpack that relies on OpenSSL MD4, removed from Node 17+ default provider.",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "test": "NODE_OPTIONS=--openssl-legacy-provider react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
