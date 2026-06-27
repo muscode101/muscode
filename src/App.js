@@ -32,10 +32,10 @@ const TEXT = {
   getInTouch: 'Get In Touch',
   featuredApps: 'Featured Apps',
   featuredAppsSubtitle:
-    'Android products built for training, productivity, education, and enterprise teams.',
+    'Android products built for training and productivity.',
   latestProjects: 'Latest Projects',
   latestProjectsSubtitle:
-    'Selected systems and integrations shaped across mobile, web, desktop, and kiosk environments.',
+    'Selected systems and integrations shaped across mobile, web, and enterprise environments.',
   ctaTitle: 'Have a project in mind?',
   ctaBody: "Let's work together to bring your ideas to life.",
   ctaButton: 'Start a Project',
@@ -135,91 +135,9 @@ const APPS = [
     tech: ['Kotlin', 'Android', 'Storage APIs', 'Material UI'],
     action: TEXT.comingSoon,
   },
-  {
-    slug: 'data-guard',
-    initials: 'DG',
-    title: 'DataGuard',
-    description: 'Secure data collection and synchronization platform.',
-    hero:
-      'An enterprise-focused data collection workflow for offline field work, secure sync, and structured reporting.',
-    tags: ['Android', 'Enterprise'],
-    features: [
-      'Offline-first data capture',
-      'Secure synchronization',
-      'Role-based workflows',
-      'Structured exports',
-    ],
-    tech: ['Android', 'Kotlin', 'Sync Engine', 'Enterprise'],
-    action: TEXT.comingSoon,
-  },
-  {
-    slug: 'ecdc-learning-suite',
-    initials: 'ELS',
-    title: 'ECDC Learning Suite',
-    description: 'Educational apps for kids across multiple modules.',
-    hero:
-      'A children-focused learning suite with multiple modules designed for early education experiences.',
-    tags: ['Android', 'Education'],
-    features: [
-      'Child-friendly learning flows',
-      'Multiple education modules',
-      'Simple progress moments',
-      'Offline classroom use',
-    ],
-    tech: ['Android', 'Kotlin', 'Education UX', 'Media'],
-    action: TEXT.comingSoon,
-  },
 ];
 
 const PROJECTS = [
-  {
-    slug: 'childsteps-platform',
-    initials: 'CP',
-    title: 'ChildSteps Platform',
-    description: 'Comprehensive education management system.',
-    tags: ['Web', 'Education'],
-    status: 'Active',
-    role: 'Full-stack delivery',
-    problem:
-      'Schools and learning teams need a connected way to manage learners, content, activity, and reporting.',
-    solution:
-      'A structured platform experience that brings education operations into one reliable web system.',
-    features: ['Learner records', 'Content modules', 'Reporting dashboards', 'Role-based access'],
-    tech: ['React', 'Node.js', 'Database Design', 'Responsive UI'],
-    outcome: 'Clearer workflows for education teams and a scalable foundation for future modules.',
-  },
-  {
-    slug: 'elk-launcher',
-    initials: 'ELK',
-    title: 'ELK Launcher',
-    description: 'Kiosk mode launcher for Android devices.',
-    tags: ['Android', 'Kiosk'],
-    status: 'Delivered',
-    role: 'Android engineering',
-    problem:
-      'Managed devices need a controlled launcher that keeps users focused on approved applications.',
-    solution:
-      'A kiosk launcher with app restrictions, resilient device flow, and a controlled Android experience.',
-    features: ['Kiosk mode', 'Allowed apps', 'Device controls', 'Managed home screen'],
-    tech: ['Kotlin', 'Android', 'Device Policy', 'Kiosk UX'],
-    outcome: 'A dependable launcher foundation for managed Android deployments.',
-  },
-  {
-    slug: 'amapi-integration',
-    initials: 'API',
-    title: 'AMAPI Integration',
-    description: 'Android Management API integration system.',
-    tags: ['Android', 'Enterprise'],
-    status: 'In progress',
-    role: 'Integration architecture',
-    problem:
-      'Enterprise Android fleets need policy automation, provisioning, and device management at scale.',
-    solution:
-      'A management integration layer that connects Android Management API flows with operational tools.',
-    features: ['Policy setup', 'Provisioning flows', 'Device enrollment', 'Management reporting'],
-    tech: ['Android Management API', 'Node.js', 'Cloud APIs', 'Enterprise Auth'],
-    outcome: 'A path toward cleaner device fleet onboarding and centralized Android management.',
-  },
   {
     slug: 'muscode-website',
     initials: 'MW',
@@ -247,7 +165,7 @@ const ABOUT_SECTIONS = [
   {
     title: 'What We Build',
     body:
-      'Android applications, web platforms, desktop information systems, kiosk tools, UI/UX concepts, and enterprise integrations.',
+      'Android applications, web platforms, desktop information systems, UI/UX concepts, and enterprise integrations.',
   },
   {
     title: 'Why Muscode',
@@ -593,7 +511,7 @@ function FilterPills({ options, activeFilter, onChange }) {
 function AppsPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeFilter, setActiveFilter] = useState(TEXT.filterAll);
-  const filters = [TEXT.filterAll, 'Fitness', 'Training', 'Productivity', 'Education', 'Enterprise'];
+  const filters = [TEXT.filterAll, 'Fitness', 'Training', 'Productivity'];
 
   const visibleApps = useMemo(
     () =>
@@ -754,7 +672,7 @@ function AppDetailPage({ slug }) {
 
 function ProjectsPage() {
   const [activeFilter, setActiveFilter] = useState(TEXT.filterAll);
-  const filters = [TEXT.filterAll, 'Android', 'Web', 'Enterprise', 'Kiosk', 'Education'];
+  const filters = [TEXT.filterAll, 'Web', 'Portfolio'];
   const visibleProjects = PROJECTS.filter(
     (project) => activeFilter === TEXT.filterAll || project.tags.includes(activeFilter),
   );
